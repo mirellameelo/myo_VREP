@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (hello-myo-VisualStudio2013.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  emg-data-sample.cpp
+d:\cbeb\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  d:\cbeb\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+d:\cbeb\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  d:\cbeb\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  emg-data-sample-VisualStudio2013.vcxproj -> D:\CBEB\myo-sdk-win-0.9.0\samples\x64\Release\emg-data-sample-VisualStudio2013.exe
+  emg-data-sample-VisualStudio2013.vcxproj -> D:\CBEB\myo-sdk-win-0.9.0\samples\x64\Release\emg-data-sample-VisualStudio2013.pdb (Full PDB)
+          1 file(s) copied.

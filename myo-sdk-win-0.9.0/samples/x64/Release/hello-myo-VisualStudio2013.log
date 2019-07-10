@@ -1,0 +1,17 @@
+﻿Build started 6/6/2018 2:57:37 PM.
+     1>Project "D:\DETEB\myo-sdk-win-0.9.0\samples\hello-myo-VisualStudio2013.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (emg-data-sample-VisualStudio2013.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\DETEB\myo-sdk-win-0.9.0\samples\x64\Release\hello-myo-VisualStudio2013.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib myo64.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\DETEB\myo-sdk-win-0.9.0\samples\x64\Release\hello-myo-VisualStudio2013.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\DETEB\myo-sdk-win-0.9.0\samples\x64\Release\hello-myo-VisualStudio2013.lib" /MACHINE:X64 "x64\Release\hello-myo.obj"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+         hello-myo-VisualStudio2013.vcxproj -> D:\DETEB\myo-sdk-win-0.9.0\samples\x64\Release\hello-myo-VisualStudio2013.exe
+       PostBuildEvent:
+         COPY "..\bin\myo64.dll" "D:\DETEB\myo-sdk-win-0.9.0\samples\x64\Release\"
+               
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "D:\DETEB\myo-sdk-win-0.9.0\samples\hello-myo-VisualStudio2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.43
